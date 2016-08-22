@@ -38,3 +38,19 @@ footer {
     width:100%;
     height:auto;
 }
+
+.iframe iframe {
+    margin-top:4px;
+    float:right;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
